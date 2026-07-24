@@ -40,3 +40,5 @@ def evaluate():
         json.dump(report, f, indent=4)
 
     print("Evaluation completed.")
+if __name__ == "__main__":
+    train()

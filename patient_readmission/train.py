@@ -44,3 +44,5 @@ def train():
 
     print(f"Model saved to {config['output']['model']}")
     print("Test dataset saved.")
+if __name__ == "__main__":
+    train()
